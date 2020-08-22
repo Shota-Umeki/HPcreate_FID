@@ -1,0 +1,159 @@
+/*　基本設定　*/
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*　ヘッダー　*/
+
+header{
+    width: 800px;
+    height: 65px;
+}
+
+header #logo{
+    position: relative;
+    width: 200px;
+    height: 65px;
+    float: left;
+}
+
+#logo img{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    bottom: 0;
+    margin: 0 0 10px 35px;
+}
+
+header #menu{
+    width: 600px;
+    height: 65px;
+    float: right;
+    background-color: #071b78;
+}
+
+#menu ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    margin: 35px 30px 0 0;
+}
+
+#menu li{
+    width: 90px;
+    height: 35px;
+    text-align: right;
+    margin-left: 30px;
+    float: left;
+}
+
+#menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: #ccf1ff
+}
+
+/*　フッター　*/
+
+footer{
+    position: relative;
+    width: 800px;
+    height: 300px;
+    background-color: #131d67;
+    color: both;
+}
+
+footer ul{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+footer #leftlist,#home{
+    margin-left: 30px;
+}
+
+#home{
+    display: block;
+    width: 160px;
+    height: 26px;
+    border-bottom: 2px solid #CCC;
+    padding-top: 10px;
+    text-indent: 8px;
+}
+
+#home a{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Sawarabi Gothic";
+    line-height: 26px;
+    text-decoration: none;
+}
+
+#home a:hover{
+    color: #ccf1ff;
+}
+
+footer li{
+    width: 160px;
+    height: 26px;
+}
+
+.linkmain{
+    border-bottom: 2px solid #CCC;
+    padding-top: 5px;
+    text-indent: 8px;
+    margin-bottom: 5px;
+}
+
+.linkmain a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    font-family: "Sawarabi Gothic";
+}
+
+.linkmain a:hover{
+    color: #ccf1ff
+}
+
+.sub{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 10px;
+}
+
+.sub a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub a:hover{
+    color: #CCF1FF;
+}
+
+footer img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 30px 10px 0;
+}
+
+#info{
+    margin:0 auto;
+    width: 500px;
+}
+
+#copyright{
+    text-align: center;
+    padding: 10px 0;
+}
