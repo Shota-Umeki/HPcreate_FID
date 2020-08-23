@@ -1,0 +1,301 @@
+/*　基本設定　*/
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*　ヘッダー　*/
+
+header{
+    width: 800px;
+    height: 65px;
+}
+
+header #logo{
+    position: relative;
+    width: 200px;
+    height: 65px;
+    float: left;
+}
+
+#logo img{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    bottom: 0;
+    margin: 0 0 10px 35px;
+}
+
+header #menu{
+    width: 600px;
+    height: 65px;
+    float: right;
+    background-color: #071b78;
+}
+
+#menu ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    margin: 35px 30px 0 0;
+}
+
+#menu li{
+    width: 90px;
+    height: 35px;
+    text-align: right;
+    margin-left: 30px;
+    float: left;
+}
+
+#menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: #ccf1ff
+}
+
+/*　提供サービス　*/
+
+/*　提供サービス　交通誘導　施設警備*/
+
+h1{
+    margin: 35px 10px 0 30px;
+    font-size: 32px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight: bold;
+    width: 200px;
+    height: 32px;
+    float: left;
+}
+
+#midashi{
+    font-size: 18px;
+    font-family: "Sawarabi Gothic";
+    float: left;
+    margin-top: 50px;
+    margin-left: 4px;
+}
+
+#service-left{
+    clear: left;
+    width: 355px;
+    height: 482px;
+    margin: 30px 0 24px 30px;
+    float: left;
+}
+
+#service-right{
+    width: 355px;
+    height: 482px;
+    margin: 30px 30px 24px 0;
+    float: right;
+}
+
+#service-right img,#service-left img{
+    width: 355px;
+    height: 260px;
+}
+
+#service-right h2,#service-left h2{
+    font-size: 26px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 10px;
+    border-bottom: 2px solid #a2bbff;
+    /*background-image: url("../img/line-service.png");
+    background-repeat: no-repeat;
+    background-position: bottom 5px left 4px;*/
+}
+
+#service-right .shosai{
+    font-size: 18px;
+    margin-top: -50px;
+    padding-left: 210px;
+    line-height: 46px;
+}
+
+#service-right p,#service-left p{
+    font-size: 16px;
+    font-family: "Sawarabi Gothic";
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: -1px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+/*　提供サービス　道路規制　海上警備　現金輸送　施設管理　設備員　身辺警護*/
+
+table{
+    width: 740px;
+    height: 265px;
+    margin: 30px 30px;
+}
+
+.large,.large2{
+    float: left;
+    width: 355px;
+    height: 280px;
+    border: 2px solid #717dae;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.large img,.large2 img{
+    width: 355px;
+    height: 240px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.large p,.large2 p{
+    font-size: 22px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight: bold;
+    line-height: 36px;
+    text-indent: 10px;
+    /*background-image: url("../img/line-service.png");
+	background-repeat: no-repeat;
+	background-position: bottom 2px left 5px;*/
+}
+
+.large p span{
+    font-size: 16px;
+    padding-left: 130px;
+}
+
+.small,.small2{
+    float: left;
+    width: 164px;
+    height: 170px;
+    border: 2px solid #717dae;
+    border-radius: 6px;
+    margin: 25px 0px 25px 25px;
+}
+
+.small img,.small2 img{
+    width: 164px;
+    height: 140px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.small p,.small2 p{
+    font-size: 16px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight: bold;
+    line-height: 24px;
+    text-indent: 8px;
+    /*background-image: url("../img/line-service2.png");
+	background-repeat: no-repeat;
+	background-position: bottom left 5px;*/
+}
+
+.large2,.small2{
+    background-color: #eaf6fd;
+}
+
+/*　フッター　*/
+
+footer{
+    position: relative;
+    width: 800px;
+    height: 300px;
+    background-color: #131d67;
+    color: both;
+}
+
+footer ul{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+footer #leftlist,#home{
+    margin-left: 30px;
+}
+
+#home{
+    display: block;
+    width: 160px;
+    height: 26px;
+    border-bottom: 2px solid #CCC;
+    padding-top: 10px;
+    text-indent: 8px;
+}
+
+#home a{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Sawarabi Gothic";
+    line-height: 26px;
+    text-decoration: none;
+}
+
+#home a:hover{
+    color: #ccf1ff;
+}
+
+footer li{
+    width: 160px;
+    height: 26px;
+}
+
+.linkmain{
+    border-bottom: 2px solid #CCC;
+    padding-top: 5px;
+    text-indent: 8px;
+    margin-bottom: 5px;
+}
+
+.linkmain a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    font-family: "Sawarabi Gothic";
+}
+
+.linkmain a:hover{
+    color: #ccf1ff
+}
+
+.sub{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 10px;
+}
+
+.sub a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub a:hover{
+    color: #CCF1FF;
+}
+
+footer img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 30px 10px 0;
+}
+
+#info{
+    margin:0 auto;
+    width: 500px;
+}
+
+#copyright{
+    text-align: center;
+    padding: 10px 0;
+}
